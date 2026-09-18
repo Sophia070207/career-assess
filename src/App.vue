@@ -741,6 +741,8 @@ onMounted(() => {
   padding: 30px 0;
   background: linear-gradient(135deg, #409eff 0%, #67c23a 100%);
   color: #fff;
+  /* el-header 默认高度 60px，装不下「标题 + 副标题」，不覆盖会溢出重叠 */
+  height: auto;
 }
 
 .page-header h1 {
