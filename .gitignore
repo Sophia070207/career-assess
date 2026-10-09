@@ -5,6 +5,7 @@ node_modules/
 dist/
 
 # 本地环境文件
+.env
 .env.local
 .env.*.local
 
