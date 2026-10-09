@@ -1,0 +1,22 @@
+# 依赖目录
+node_modules/
+
+# 构建产物
+dist/
+
+# 本地环境文件
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
